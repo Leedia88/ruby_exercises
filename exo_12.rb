@@ -8,9 +8,13 @@ j = -1
 (age).times do |i|
   if (age - 1 - i) == i
     j = i
+    puts "Il y a #{age - 1 - i} ans(s), tu avais la moitié de l'âge d'aujourd'hui! :)"
+  else
+    puts "Il y a #{age - 1 - i} ans(s), tu avais #{i} ans(s)"
   end
-  puts "Il y a #{age - 1 - i} ans(s), tu avais #{i} ans(s)"
 end
-if j >0
-  puts "Wow, il y a #{j} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
-end
+# if j >0
+#   puts "Wow, il y a #{j} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
+# else
+#   puts "Tiens donc, ton age est impair "
+# end
